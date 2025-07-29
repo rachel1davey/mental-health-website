@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mental Health Awareness</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Link to external CSS -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
   <script src="./index.js" defer></script>
 </head>
 <body>
 
-    <!-- Sticky Navbar -->
-<nav id="navbar-example2" class="navbar navbar-light bg-light px-3 sticky-top border-bottom shadow-sm">
-  <a class="navbar-brand" href="#">Mental Health Matters</a>
-  <ul class="nav nav-pills">
-    <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
-    <li class="nav-item"><a class="nav-link" href="#issues">Common Issues</a></li>
-    <li class="nav-item"><a class="nav-link" href="#affirmations">Affirmations</a></li>
-    <li class="nav-item"><a class="nav-link" href="#resources">Find Resources</a></li>
-    <li class="nav-item"><a class="nav-link" href="#letitout">Let It Out!</a></li>
-  </ul>
-</nav>
+  <!-- Sticky Navbar -->
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 sticky-top border-bottom shadow-sm">
+    <a class="navbar-brand" href="#">Mental Health Matters</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
+      <li class="nav-item"><a class="nav-link" href="#issues">Common Issues</a></li>
+      <li class="nav-item"><a class="nav-link" href="#affirmations">Affirmations</a></li>
+      <li class="nav-item"><a class="nav-link" href="#resources">Find Resources</a></li>
+      <li class="nav-item"><a class="nav-link" href="#letitout">Let It Out!</a></li>
+    </ul>
+  </nav>
 
-  <!-- Jumbotron Hero Section -->
+  <!-- Hero Section -->
   <div class="jumbotron text-center bg-light" id="hero">
     <div class="container">
       <h1 class="display-4 text-primary">You’re Not Alone ❤️</h1>
@@ -40,146 +39,137 @@
     </div>
   </section>
 
-<!-- Cards Section -->
-<section class="py-4 bg-light" id="issues">
-    <div class="container"></div>
-        <h2 class="text-center mb-4">Common Issues</h2>
-        <p class="text-center mb-4">Here are a few challenges people often face. Awareness is the first step toward healing:</p>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Anxiety">
-                    <div class="card-body">
-                        <h5 class="card-title">🌀 Anxiety</h5>
-                        <p class="card-text">Feelings of worry or fear that are strong enough to interfere with daily life.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalAnxiety">Learn More</a>
-                    </div>
-                </div>
+  <!-- Common Issues Cards -->
+  <section class="py-4 bg-light" id="issues">
+    <div class="container">
+      <h2 class="text-center mb-4">Common Issues</h2>
+      <p class="text-center mb-4">Here are a few challenges people often face. Awareness is the first step toward healing:</p>
+      <div class="row">
+        <!-- Anxiety -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Illustration representing anxiety" />
+            <div class="card-body">
+              <h5 class="card-title">🌀 Anxiety</h5>
+              <p class="card-text">Feelings of worry or fear that are strong enough to interfere with daily life.</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalAnxiety">Learn More</button>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Depression">
-                    <div class="card-body">
-                        <h5 class="card-title">🌧️ Depression</h5>
-                        <p class="card-text">Persistent sadness, loss of interest, and a sense of hopelessness that can impact every area of life.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalDepression">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Stress">
-                    <div class="card-body">
-                        <h5 class="card-title">🌪️ Stress</h5>
-                        <p class="card-text">Feelings of being overwhelmed or unable to cope with mental or emotional pressure.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalStress">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- New Card: Burnout -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Burnout">
-                    <div class="card-body">
-                        <h5 class="card-title">🔥 Burnout</h5>
-                        <p class="card-text">Physical, emotional, and mental exhaustion caused by prolonged stress or overwork.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalBurnout">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- New Card: Loneliness -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Loneliness">
-                    <div class="card-body">
-                        <h5 class="card-title">🌙 Loneliness</h5>
-                        <p class="card-text">Feeling isolated or disconnected from others, even when surrounded by people.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalLoneliness">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- New Card: Self-Esteem -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Self-Esteem">
-                    <div class="card-body">
-                        <h5 class="card-title">💡 Low Self-Esteem</h5>
-                        <p class="card-text">Struggling with self-worth, confidence, or feeling inadequate.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalSelfEsteem">Learn More</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-       <p class="text-center mb-4 fw-bold">Please be aware that these are not the only issues people suffering with mental health may face. It's important to seek help and support. Never feel ashamed even if you feel like your issues are more 'complex'.</p>
-
-</section>
+        <!-- Depression -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Illustration representing depression" />
+            <div class="card-body">
+              <h5 class="card-title">🌧️ Depression</h5>
+              <p class="card-text">Persistent sadness, loss of interest, and a sense of hopelessness that can impact every area of life.</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalDepression">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Stress -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Illustration representing stress" />
+            <div class="card-body">
+              <h5 class="card-title">🌪️ Stress</h5>
+              <p class="card-text">Feelings of being overwhelmed or unable to cope with mental or emotional pressure.</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalStress">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Burnout -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Illustration representing burnout" />
+            <div class="card-body">
+              <h5 class="card-title">🔥 Burnout</h5>
+              <p class="card-text">Physical, emotional, and mental exhaustion caused by prolonged stress or overwork.</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalBurnout">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Loneliness -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Illustration representing loneliness" />
+            <div class="card-body">
+              <h5 class="card-title">🌙 Loneliness</h5>
+              <p class="card-text">Feeling isolated or disconnected from others, even when surrounded by people.</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalLoneliness">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Low Self-Esteem -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Illustration representing self-esteem" />
+            <div class="card-body">
+              <h5 class="card-title">💡 Low Self-Esteem</h5>
+              <p class="card-text">Struggling with self-worth, confidence, or feeling inadequate.</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#learnMoreModalSelfEsteem">Learn More</button>
+            </div>
           </div>
         </div>
       </div>
-
-
-      </div>
-
+      <p class="text-center mb-4 fw-bold">Please be aware that these are not the only issues people suffering with mental health may face. It's important to seek help and support. Never feel ashamed even if you feel like your issues are more 'complex'.</p>
     </div>
-  </div>
-</section>
-
-
-  <!-- Tips Section -->
-  <section class="py-4" id="tips">
-    <div class="container text-center">
-        <h2> Tips for your Mental Health ❤️</h2>
-<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </button>
-      </h2>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        Some placeholder content for the second accordion panel. This panel is hidden by default.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
-        And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
   </section>
 
-  <!-- Affirmations Section -->
+  <!-- Tips Accordion -->
+  <section class="py-4" id="tips">
+    <div class="container text-center">
+      <h2>Tips for your Mental Health ❤️</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Prioritize Sleep
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              A good night’s sleep helps regulate emotions, improves focus, and boosts overall mood. Aim for 7–9 hours per night.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              Practice Mindfulness
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Try deep breathing, journaling, or short meditations to reduce anxiety and stay present in the moment.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              Connect With Others
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Talk to friends, family, or a therapist. You don’t have to go through difficult times alone.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Affirmations -->
   <section class="py-4 bg-light" id="affirmations">
     <div class="container text-center">
       <h2>Positive Affirmations</h2>
@@ -189,7 +179,7 @@
     </div>
   </section>
 
-  <!-- Resources Section -->
+  <!-- Resources -->
   <section id="resources" class="py-4">
     <div class="container text-center">
       <h2>Helpful Resources</h2>
@@ -201,7 +191,7 @@
     </div>
   </section>
 
-  <!-- Anonymous Message Section -->
+  <!-- Let It Out -->
   <section class="py-4 bg-light" id="letitout">
     <div class="container text-center">
       <h2>Share Anonymously 💬🗣️</h2>
@@ -217,98 +207,46 @@
   <!-- Footer -->
   <footer class="py-3 text-center">
     <p>Take care of yourself — you matter.</p>
-    <a href="#hero" class="text-decoration-none fw-bold text-dark" aria-label="Return to top of page">
-                    Return to Top
-                </a>
+    <a href="#hero" class="text-decoration-none fw-bold text-dark" aria-label="Return to top of page">Return to Top</a>
   </footer>
 
-  <!-- Modals --->
-   <!-- Learn More Modal -->
-<div class="modal fade" id="learnMoreModalAnxiety" tabindex="-1" aria-labelledby="learnMoreModalAnxiety" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="learnMoreModalAnxiety">More Information</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This is where you can add detailed information about the topic.</p>
-      </div>
-    </div>
+  <!-- Modals -->
+  <div class="modal fade" id="learnMoreModalAnxiety" tabindex="-1" aria-labelledby="learnMoreModalAnxiety" aria-hidden="true">
+    <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
+      <h5 class="modal-title">Anxiety</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body"><p>This is where you can add detailed information about anxiety.</p></div></div></div>
   </div>
-</div>
-<div class="modal fade" id="learnMoreModalDepression" tabindex="-1" aria-labelledby="learnMoreModalDepression" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="learnMoreModalDepression">More Information</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This is where you can add detailed information about the topic.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="modal fade" id="learnMoreModalBurnout" tabindex="-1" aria-labelledby="learnMoreModalBurnout" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="learnMoreModalBurnout">More Information</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This is where you can add detailed information about the topic.</p>
-      </div>
-    </div>
+  <div class="modal fade" id="learnMoreModalDepression" tabindex="-1" aria-labelledby="learnMoreModalDepression" aria-hidden="true">
+    <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
+      <h5 class="modal-title">Depression</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body"><p>This is where you can add detailed information about depression.</p></div></div></div>
   </div>
-</div>
-<div class="modal fade" id="learnMoreModalLoneliness" tabindex="-1" aria-labelledby="learnMoreModalLoneliness" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="learnMoreModalLoneliness">More Information</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This is where you can add detailed information about the topic.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="learnMoreModalStress" tabindex="-1" aria-labelledby="learnMoreModalStress" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="learnMoreModalStress">More Information</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This is where you can add detailed information about the topic.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="learnMoreModalSelfEsteem" tabindex="-1" aria-labelledby="learnMoreModalSelfEsteem" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="learnMoreModalSelfEsteem">More Information</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This is where you can add detailed information about the topic.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
+  <div class="modal fade" id="learnMoreModalStress" tabindex="-1" aria-labelledby="learnMoreModalStress" aria-hidden="true">
+    <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
+      <h5 class="modal-title">Stress</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body"><p>This is where you can add detailed information about stress.</p></div></div></div>
+  </div>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="modal fade" id="learnMoreModalBurnout" tabindex="-1" aria-labelledby="learnMoreModalBurnout" aria-hidden="true">
+    <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
+      <h5 class="modal-title">Burnout</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body"><p>This is where you can add detailed information about burnout.</p></div></div></div>
+  </div>
 
+  <div class="modal fade" id="learnMoreModalLoneliness" tabindex="-1" aria-labelledby="learnMoreModalLoneliness" aria-hidden="true">
+    <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
+      <h5 class="modal-title">Loneliness</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body"><p>This is where you can add detailed information about loneliness.</p></div></div></div>
+  </div>
+
+  <div class="modal fade" id="learnMoreModalSelfEsteem" tabindex="-1" aria-labelledby="learnMoreModalSelfEsteem" aria-hidden="true">
+    <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
+      <h5 class="modal-title">Low Self-Esteem</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body"><p>This is where you can add detailed information about self-esteem issues.</p></div></div></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
