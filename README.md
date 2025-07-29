@@ -64,7 +64,6 @@ CSS
 Bootstrap
 Github
 ## Testing
-Important part of your README!!!
 ### Google's Lighthouse Performance
 Screenshots of certain pages and scores (mobile and desktop)
 ### Browser Compatibility
