@@ -1,0 +1,18 @@
+    body {
+      background-color: #f5fafd;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: url('hero-image.jpg') center/cover no-repeat;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      background-color: #cce5ff;
+    }
+    .card-title {
+      color: #0c5460;
+    }
+    .affirmation {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
