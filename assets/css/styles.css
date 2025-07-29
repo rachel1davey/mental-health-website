@@ -16,3 +16,8 @@
       font-size: 1.2rem;
       font-style: italic;
     }
+    .jumbotron {
+      background-image: url(./images/hero-cover.jpg);
+      background-repeat:  no-repeat;
+      background-size: cover;
+    }
