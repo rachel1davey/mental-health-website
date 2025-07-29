@@ -1,4 +1,5 @@
-document.getElementById('releaseThoughtBtn');
+let releaseThoughtBtn = document.getElementById('releaseThoughtBtn');
+let releaseThought = document.getElementById('releaseThought');
 
 // Add an event listener to the button
 releaseThoughtBtn.addEventListener('click', function(event) {
@@ -6,5 +7,4 @@ releaseThoughtBtn.addEventListener('click', function(event) {
     event.preventDefault();
     const textarea = document.querySelector('textarea');
     textarea.value = '';
-    // show a confirmation message
 });
