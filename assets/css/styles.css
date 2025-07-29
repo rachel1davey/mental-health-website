@@ -4,10 +4,11 @@
       background-color:  #91F9E5;
       font-family: 'Inter', sans-serif;
     }
-    .hero {
-      background: url('hero-image.jpg') center/cover no-repeat;
+    #hero {
+      background: url('../images/hero-image.jpg') center/cover no-repeat;
       color: #fff;
       padding: 80px 20px;
+      color: black;
       text-align: center;
       background-color: #cce5ff;
     }
@@ -17,9 +18,4 @@
     .affirmation {
       font-size: 1.2rem;
       font-style: italic;
-    }
-    .jumbotron {
-      background-image: url(./images/hero-cover.jpg);
-      background-repeat:  no-repeat;
-      background-size: cover;
     }
