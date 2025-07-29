@@ -22,11 +22,34 @@
 ## Design & Planning:
 
 ### User Stories
-Write your user stories in this section
+
+- **As a first-time visitor**, I want a gentle introduction to mental health, so I can understand it without feeling overwhelmed.
+- **As someone curious about mental health**, I want to explore common issues explained in clear, everyday language, so I feel more informed and less confused.
+- **As a caregiver or friend**, I want to understand signs of mental health challenges, so I can better support someone I care about.
+
+- **As someone feeling stressed**, I want to see practical tips for coping, so I can get help quickly without needing to search far.
+- **As a busy student or professional**, I want short and actionable advice, so I can use it even on hectic days.
+
+- **As a user carrying emotional weight**, I want to submit an anonymous message to get something off my chest, so I can feel relief without fear of judgment.
+
+- **As a person looking for professional help**, I want easy access to hotlines and support links, so I know where to turn in moments of need.
+- **As a user in crisis**, I want urgent resources to be clearly visible, so I can get help fast and safely.
+
+- **As a person navigating tough emotions**, I want positive affirmations displayed throughout the page, so I feel supported and understood.
+- **As a user who’s emotionally sensitive**, I want soft colors and calming design, so the page doesn’t add to my stress.
+- **As someone seeking reassurance**, I want messages like “You’re doing your best” or “You matter,” so I feel encouraged.
+
+- **As a beginner to websites**, I want a clear, intuitive layout, so I don’t get lost or frustrated while browsing.
+- **As a mobile user**, I want everything to work well on my phone, so I can access support wherever I am.
+- **As a user with a disability**, I want the site to be readable and navigable with screen readers.
+
 ### Wireframes
 Attach wireframes in this section
+
 ### Typography
-Explain font you've used for your project
+In my project, I used the Google Font Inter.
+https://fonts.google.com/specimen/Inter
+
 ### Colour Scheme
 Screenshoot of the colour scheme for your project
 
@@ -36,7 +59,6 @@ Explain your features on the website,(navigation, pages, links, forms.....)
 ### Footer
 ### Other features
 ## Technologies Used
-List of technologies used for your project...
 HTML
 CSS
 Bootstrap
@@ -62,17 +84,7 @@ paste here you user story | what is visible to the user and what action they sho
 List of bugs and how did you fix them
 
 ## Deployment
-
-#### Creating Repository on GitHub
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
-#### Deloying on Github
-The site was deployed to Github Pages using the following method:
-- Go to the Github repository.
-- Navigate to the 'settings' tab.
-- Using the 'select branch' dropdown menu, choose 'main'.
-- Click 'save'.
+For deployment, I used Github's built-in Github Pages.
 
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
