@@ -18,3 +18,10 @@
       font-size: 1.2rem;
       font-style: italic;
     }
+
+    .card:hover{
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;   
+    transform: scale(1.05);
+
+}
