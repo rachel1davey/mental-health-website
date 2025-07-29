@@ -232,7 +232,7 @@
         <div class="form-group">
           <textarea class="form-control" rows="4" placeholder="Type anything you want to express judgement free..." id="releaseThought"></textarea>
         </div>
-        <button type="submit" class="btn btn-secondary mt-2" id="releaseThoughtBtn">Release This Thought</button>
+        <button type="submit" class="btn btn-primary mt-4" id="releaseThoughtBtn">Release This Thought</button>
       </form>
     </div>
   </section>
@@ -244,41 +244,229 @@
     <a href="#hero" class="text-decoration-none fw-bold text-dark" aria-label="Return to top of page">Return to Top</a>
   </footer>
 
-  <!-- Modals -->
+<!-- Modals -->
   <div class="modal fade" id="learnMoreModalAnxiety" tabindex="-1" aria-labelledby="learnMoreModalAnxiety" aria-hidden="true">
     <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
-      <h5 class="modal-title">Anxiety</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div><div class="modal-body"><p>This is where you can add detailed information about anxiety.</p></div></div></div>
+      <h5 class="modal-title">🌀 Understanding Anxiety</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body">
+      <h6>What is Anxiety?</h6>
+      <p>Anxiety is your body's natural response to stress and perceived threats. While occasional anxiety is normal and can even be helpful, persistent anxiety that interferes with daily life may indicate an anxiety disorder.</p>
+      
+      <h6>Common Symptoms:</h6>
+      <ul>
+        <li>Excessive worry or fear about future events</li>
+        <li>Physical symptoms like rapid heartbeat, sweating, or trembling</li>
+        <li>Restlessness or feeling on edge</li>
+        <li>Difficulty concentrating or mind going blank</li>
+        <li>Sleep disturbances</li>
+        <li>Avoiding situations that trigger anxiety</li>
+      </ul>
+      
+      <h6>Coping Strategies:</h6>
+      <ul>
+        <li><strong>Deep Breathing:</strong> Practice 4-7-8 breathing (inhale for 4, hold for 7, exhale for 8)</li>
+        <li><strong>Grounding Techniques:</strong> Use the 5-4-3-2-1 method (5 things you see, 4 you touch, 3 you hear, 2 you smell, 1 you taste)</li>
+        <li><strong>Progressive Muscle Relaxation:</strong> Tense and release muscle groups systematically</li>
+        <li><strong>Mindfulness Meditation:</strong> Focus on the present moment without judgment</li>
+        <li><strong>Regular Exercise:</strong> Physical activity releases endorphins and reduces stress hormones</li>
+      </ul>
+      
+      <p><strong>Remember:</strong> If anxiety significantly impacts your daily life, work, or relationships, consider speaking with a mental health professional. Treatment options like therapy and medication can be highly effective.</p>
+    </div></div></div>
   </div>
 
   <div class="modal fade" id="learnMoreModalDepression" tabindex="-1" aria-labelledby="learnMoreModalDepression" aria-hidden="true">
     <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
-      <h5 class="modal-title">Depression</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div><div class="modal-body"><p>This is where you can add detailed information about depression.</p></div></div></div>
+      <h5 class="modal-title">🌧️ Understanding Depression</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body">
+      <h6>What is Depression?</h6>
+      <p>Depression is a serious mental health condition that affects how you feel, think, and handle daily activities. It's more than just feeling sad or going through a rough patch - it's a persistent condition that can significantly impact your quality of life.</p>
+      
+      <h6>Common Symptoms:</h6>
+      <ul>
+        <li>Persistent sadness, emptiness, or hopelessness</li>
+        <li>Loss of interest or pleasure in activities once enjoyed</li>
+        <li>Significant changes in appetite or weight</li>
+        <li>Sleep disturbances (insomnia or oversleeping)</li>
+        <li>Fatigue or loss of energy</li>
+        <li>Feelings of worthlessness or inappropriate guilt</li>
+        <li>Difficulty concentrating or making decisions</li>
+        <li>Thoughts of death or suicide</li>
+      </ul>
+      
+      <h6>Self-Care Strategies:</h6>
+      <ul>
+        <li><strong>Maintain a Routine:</strong> Structure can provide stability and purpose</li>
+        <li><strong>Stay Connected:</strong> Reach out to friends, family, or support groups</li>
+        <li><strong>Exercise Regularly:</strong> Even light activity like walking can boost mood</li>
+        <li><strong>Eat Well:</strong> Proper nutrition supports mental health</li>
+        <li><strong>Get Sunlight:</strong> Natural light can help regulate mood and sleep</li>
+        <li><strong>Practice Self-Compassion:</strong> Be kind to yourself during difficult times</li>
+      </ul>
+      
+      <p><strong>Important:</strong> Depression is a treatable medical condition. If you're experiencing symptoms, please reach out to a healthcare provider, therapist, or call a crisis helpline. You don't have to face this alone.</p>
+      
+      <div class="alert alert-warning mt-3">
+        <strong>Crisis Resources:</strong> If you're having thoughts of suicide, please contact the 988 Suicide & Crisis Lifeline (dial 988) or go to your nearest emergency room.
+      </div>
+    </div></div></div>
   </div>
 
   <div class="modal fade" id="learnMoreModalStress" tabindex="-1" aria-labelledby="learnMoreModalStress" aria-hidden="true">
     <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
-      <h5 class="modal-title">Stress</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div><div class="modal-body"><p>This is where you can add detailed information about stress.</p></div></div></div>
+      <h5 class="modal-title">🌪️ Understanding Stress</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body">
+      <h6>What is Stress?</h6>
+      <p>Stress is your body's natural response to challenges, changes, or demands. While short-term stress can be motivating and help you perform better, chronic stress can have serious effects on your physical and mental health.</p>
+      
+      <h6>Types of Stress:</h6>
+      <ul>
+        <li><strong>Acute Stress:</strong> Short-term stress from immediate pressures or demands</li>
+        <li><strong>Chronic Stress:</strong> Long-term stress from ongoing life pressures</li>
+        <li><strong>Episodic Acute Stress:</strong> Frequent episodes of acute stress</li>
+      </ul>
+      
+      <h6>Common Signs of Stress:</h6>
+      <ul>
+        <li>Physical: Headaches, muscle tension, fatigue, digestive issues</li>
+        <li>Emotional: Irritability, anxiety, restlessness, mood swings</li>
+        <li>Cognitive: Racing thoughts, forgetfulness, difficulty concentrating</li>
+        <li>Behavioral: Changes in appetite, sleep problems, social withdrawal</li>
+      </ul>
+      
+      <h6>Stress Management Techniques:</h6>
+      <ul>
+        <li><strong>Time Management:</strong> Prioritize tasks and break large projects into smaller steps</li>
+        <li><strong>Relaxation Techniques:</strong> Try meditation, yoga, or deep breathing exercises</li>
+        <li><strong>Physical Activity:</strong> Regular exercise is one of the best stress relievers</li>
+        <li><strong>Healthy Boundaries:</strong> Learn to say no and delegate when possible</li>
+        <li><strong>Social Support:</strong> Talk to friends, family, or a counselor</li>
+        <li><strong>Hobbies:</strong> Engage in activities you enjoy and find relaxing</li>
+      </ul>
+      
+      <p><strong>Remember:</strong> Some stress is normal, but if you feel overwhelmed consistently, it may be time to seek professional help. Stress management is a skill that can be learned and improved over time.</p>
+    </div></div></div>
   </div>
 
   <div class="modal fade" id="learnMoreModalBurnout" tabindex="-1" aria-labelledby="learnMoreModalBurnout" aria-hidden="true">
     <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
-      <h5 class="modal-title">Burnout</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div><div class="modal-body"><p>This is where you can add detailed information about burnout.</p></div></div></div>
+      <h5 class="modal-title">🔥 Understanding Burnout</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body">
+      <h6>What is Burnout?</h6>
+      <p>Burnout is a state of physical, emotional, and mental exhaustion caused by prolonged exposure to emotionally demanding situations. It often occurs when you feel overwhelmed, emotionally drained, and unable to meet constant demands.</p>
+      
+      <h6>The Three Dimensions of Burnout:</h6>
+      <ul>
+        <li><strong>Exhaustion:</strong> Feeling drained and depleted of emotional and physical resources</li>
+        <li><strong>Cynicism:</strong> Developing negative, detached attitudes toward work or life</li>
+        <li><strong>Reduced Efficacy:</strong> Feeling incompetent and questioning your ability to perform</li>
+      </ul>
+      
+      <h6>Warning Signs:</h6>
+      <ul>
+        <li>Chronic fatigue and feeling emotionally drained</li>
+        <li>Increased irritability and impatience</li>
+        <li>Decreased productivity and motivation</li>
+        <li>Frequent illness due to weakened immune system</li>
+        <li>Difficulty concentrating and making decisions</li>
+        <li>Feeling disconnected from work or relationships</li>
+        <li>Using substances to cope (alcohol, caffeine, etc.)</li>
+      </ul>
+      
+      <h6>Recovery Strategies:</h6>
+      <ul>
+        <li><strong>Rest and Recovery:</strong> Prioritize sleep and take regular breaks</li>
+        <li><strong>Set Boundaries:</strong> Learn to separate work from personal time</li>
+        <li><strong>Seek Support:</strong> Talk to colleagues, friends, or a professional</li>
+        <li><strong>Reassess Priorities:</strong> Focus on what truly matters and let go of perfectionism</li>
+        <li><strong>Practice Self-Care:</strong> Engage in activities that restore your energy</li>
+        <li><strong>Consider Changes:</strong> Sometimes environmental changes are necessary</li>
+      </ul>
+      
+      <p><strong>Recovery takes time:</strong> Burnout doesn't happen overnight, and neither does recovery. Be patient with yourself and consider professional help if symptoms persist.</p>
+    </div></div></div>
   </div>
 
   <div class="modal fade" id="learnMoreModalLoneliness" tabindex="-1" aria-labelledby="learnMoreModalLoneliness" aria-hidden="true">
     <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
-      <h5 class="modal-title">Loneliness</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div><div class="modal-body"><p>This is where you can add detailed information about loneliness.</p></div></div></div>
+      <h5 class="modal-title">🌙 Understanding Loneliness</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body">
+      <h6>What is Loneliness?</h6>
+      <p>Loneliness is the subjective feeling of being isolated or disconnected from others, regardless of how many people are around you. It's the gap between the social connections you have and the connections you desire.</p>
+      
+      <h6>Types of Loneliness:</h6>
+      <ul>
+        <li><strong>Emotional Loneliness:</strong> Missing close, intimate relationships</li>
+        <li><strong>Social Loneliness:</strong> Lacking a broader social network or community</li>
+        <li><strong>Existential Loneliness:</strong> Feeling fundamentally separated from others and the world</li>
+      </ul>
+      
+      <h6>Common Causes:</h6>
+      <ul>
+        <li>Life transitions (moving, changing jobs, relationship changes)</li>
+        <li>Social anxiety or shyness</li>
+        <li>Physical isolation or mobility limitations</li>
+        <li>Mental health conditions like depression</li>
+        <li>Loss of loved ones through death or estrangement</li>
+        <li>Social media and technology paradox</li>
+      </ul>
+      
+      <h6>Strategies to Combat Loneliness:</h6>
+      <ul>
+        <li><strong>Reach Out:</strong> Contact old friends or family members</li>
+        <li><strong>Join Groups:</strong> Find clubs, classes, or volunteer opportunities</li>
+        <li><strong>Be Present:</strong> Focus on quality over quantity in relationships</li>
+        <li><strong>Practice Self-Compassion:</strong> Be kind to yourself about feeling lonely</li>
+        <li><strong>Help Others:</strong> Volunteering can create meaningful connections</li>
+        <li><strong>Limit Social Media:</strong> If it increases comparison and isolation</li>
+        <li><strong>Consider Therapy:</strong> Professional help can provide tools and support</li>
+      </ul>
+      
+      <p><strong>Remember:</strong> Feeling lonely is a normal human experience. It's a signal that we need connection, just like hunger signals we need food. You're not alone in feeling alone.</p>
+    </div></div></div>
   </div>
 
   <div class="modal fade" id="learnMoreModalSelfEsteem" tabindex="-1" aria-labelledby="learnMoreModalSelfEsteem" aria-hidden="true">
     <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header">
-      <h5 class="modal-title">Low Self-Esteem</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div><div class="modal-body"><p>This is where you can add detailed information about self-esteem issues.</p></div></div></div>
+      <h5 class="modal-title">💡 Understanding Low Self-Esteem</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div><div class="modal-body">
+      <h6>What is Self-Esteem?</h6>
+      <p>Self-esteem is how you value and perceive yourself. It's your overall sense of personal worth and how much you appreciate and like yourself. Low self-esteem involves having a generally negative perception of yourself.</p>
+      
+      <h6>Signs of Low Self-Esteem:</h6>
+      <ul>
+        <li>Constantly criticizing yourself or negative self-talk</li>
+        <li>Comparing yourself unfavorably to others</li>
+        <li>Difficulty accepting compliments</li>
+        <li>Fear of failure preventing you from trying new things</li>
+        <li>People-pleasing behavior and difficulty saying no</li>
+        <li>Perfectionist tendencies and fear of making mistakes</li>
+        <li>Avoiding challenges or social situations</li>
+      </ul>
+      
+      <h6>Common Causes:</h6>
+      <ul>
+        <li>Childhood experiences and criticism from caregivers</li>
+        <li>Bullying or peer rejection</li>
+        <li>Academic or professional failures</li>
+        <li>Trauma or abuse</li>
+        <li>Mental health conditions like depression or anxiety</li>
+        <li>Social media and unrealistic comparisons</li>
+      </ul>
+      
+      <h6>Building Healthy Self-Esteem:</h6>
+      <ul>
+        <li><strong>Practice Self-Compassion:</strong> Treat yourself with the same kindness you'd show a friend</li>
+        <li><strong>Challenge Negative Thoughts:</strong> Question and reframe self-critical inner dialogue</li>
+        <li><strong>Celebrate Small Wins:</strong> Acknowledge your achievements, no matter how small</li>
+        <li><strong>Set Realistic Goals:</strong> Break larger goals into manageable steps</li>
+        <li><strong>Practice Gratitude:</strong> Focus on what you appreciate about yourself and your life</li>
+        <li><strong>Develop Skills:</strong> Learning new abilities can boost confidence</li>
+        <li><strong>Surround Yourself with Positivity:</strong> Spend time with supportive people</li>
+      </ul>
+      
+      <p><strong>Building self-esteem is a journey:</strong> It takes time and consistent effort. Consider working with a therapist who can help you develop healthy thinking patterns and coping strategies.</p>
+    </div></div></div>
   </div>
 
   <!-- Bootstrap JS -->

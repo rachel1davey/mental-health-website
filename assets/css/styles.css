@@ -25,3 +25,13 @@
     transform: scale(1.05);
 
 }
+
+.btn-primary {
+  background-color: #6bcbeb;
+  border-color: #6bcbeb;
+}
+
+.btn-primary:hover {
+  background-color: #5ab8d6;
+  border-color: #5ab8d6;
+}
