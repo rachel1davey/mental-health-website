@@ -85,6 +85,7 @@ List of bugs and how did you fix them
 
 ## Deployment
 For deployment, I used Github's built-in Github Pages.
+Link: https://rachel1davey.github.io/mental-health-website/
 
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
