@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Link to external CSS -->
   <link rel="stylesheet" href="styles.css">
+  <script src="./index.js" defer></script>
 </head>
 <body>
 
@@ -17,14 +18,10 @@
     <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
     <li class="nav-item"><a class="nav-link" href="#issues">Common Issues</a></li>
     <li class="nav-item"><a class="nav-link" href="#affirmations">Affirmations</a></li>
-    <li class="nav-item"><a class="nav-link" href="#hotlines">Hotlines</a></li>
+    <li class="nav-item"><a class="nav-link" href="#resources">Find Resources</a></li>
     <li class="nav-item"><a class="nav-link" href="#letitout">Let It Out!</a></li>
   </ul>
 </nav>
-
-<!-- Scrollable Content Area -->
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="80" tabindex="0"
-     class="scrollspy-example p-4" style="height: 90vh; overflow-y: scroll;">
 
   <!-- Jumbotron Hero Section -->
   <div class="jumbotron text-center bg-light">
@@ -36,7 +33,7 @@
   </div>
 
   <!-- About Section -->
-  <section class="py-4">
+  <section class="py-4" id="about">
     <div class="container text-center">
       <h2>What is Mental Health?</h2>
       <p>Mental health affects how we think, feel, and act. Understanding it helps us care for ourselves and others.</p>
@@ -44,7 +41,7 @@
   </section>
 
 <!-- Cards Section -->
-<section class="py-4 bg-light">
+<section class="py-4 bg-light" id="issues">
   <div class="container">
     <h2 class="text-center mb-4">Common Issues</h2>
     <div class="row">
@@ -88,7 +85,7 @@
 
 
   <!-- Tips Section -->
-  <section class="py-4">
+  <section class="py-4" id="tips">
     <div class="container text-center">
         <h2> Tips for your Mental Health ❤️</h2>
 <div class="accordion" id="accordionExample">
@@ -141,7 +138,7 @@
   </section>
 
   <!-- Affirmations Section -->
-  <section class="py-4 bg-light">
+  <section class="py-4 bg-light" id="affirmations">
     <div class="container text-center">
       <h2>Positive Affirmations</h2>
       <p class="affirmation">“You’re doing your best.”</p>
@@ -156,21 +153,21 @@
       <h2>Helpful Resources</h2>
       <div class="d-flex flex-column align-items-center">
         <a href="#" class="btn btn-outline-primary mb-2">Mental Health Hotline</a>
-        <a href="#" class="btn btn-outline-success mb-2">Self-Care Tools</a>
-        <a href="#" class="btn btn-outline-info mb-2">Community Support</a>
+        <a href="#" class="btn btn-outline-success mb-2">Self-Care Cheat Sheet</a>
+        <a href="#" class="btn btn-outline-info mb-2">Community Support Forum</a>
       </div>
     </div>
   </section>
 
   <!-- Anonymous Message Section -->
-  <section class="py-4 bg-light">
+  <section class="py-4 bg-light" id="letitout">
     <div class="container text-center">
-      <h2>Share Anonymously</h2>
+      <h2>Share Anonymously 💬🗣️</h2>
       <form>
         <div class="form-group">
-          <textarea class="form-control" rows="4" placeholder="Type anything you want to express..."></textarea>
+          <textarea class="form-control" rows="4" placeholder="Type anything you want to express judgement free..."></textarea>
         </div>
-        <button type="submit" class="btn btn-secondary mt-2">Release This Thought</button>
+        <button type="submit" class="btn btn-secondary mt-2" id="releaseThoughtBtn">Release This Thought</button>
       </form>
     </div>
   </section>
