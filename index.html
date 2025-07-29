@@ -6,6 +6,11 @@
   <title>Mental Health Awareness</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!-- Favicon links :P -->
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png" />
+<link rel="icon" type="image/x-icon" href="./assets/images/favicon_io/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_io/apple-touch-icon.png" />
   <script src="./index.js" defer></script>
 
 </head>
@@ -16,7 +21,7 @@
   <div class="container-fluid">
 
     <!-- Brand -->
-    <a class="navbar-brand" href="#">Mental Health Matters</a>
+    <a class="navbar-brand " href="#"><img src="./assets/images/logo.png" alt="Mental Health Matters Logo" class="img-fluid navbar-logo"/></a>
 
     <!-- Toggler -->
     <button
@@ -55,7 +60,7 @@
   </div>
 </nav>
   <!-- Hero Section -->
-  <div class="jumbotron text-center bg-light" id="hero">
+  <div class="py-5 px-5 text-center bg-light" id="hero">
     <div class="container">
       <h1 class="display-4 fw-bold">You’re Not Alone ❤️</h1>
     </div>
@@ -205,14 +210,69 @@
 
   <!-- Affirmations -->
   <section class="py-4 bg-light" id="affirmations">
-    <div class="container text-center">
-      <h2>Positive Affirmations</h2>
-      <p class="text-center">Repeat these daily, to remind yourself, that you are worth it.</p>
-      <p class="affirmation">“You’re doing your best.”</p>
-      <p class="affirmation">“It’s okay to slow down.”</p>
-      <p class="affirmation">“You matter, always.”</p>
+<div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
+    <h2 class="text-center">Positive Affirmations</h2>
+    <p class="text-center">Repeat daily to remind yourself that you are worth it!</p>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <h3 class="fst-italic fw-lighter">I am confident and capable.</h3>
+      </div>
     </div>
-  </section>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <h3 class="fst-italic fw-lighter">I am worthy of love and happiness.</h3>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <h3 class="fst-italic fw-lighter">I am enough just as I am.</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <h3 class="fst-italic fw-lighter">I am focused and determined to succeed.</h3>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <h3 class="fst-italic fw-lighter">I am making progress towards my goals every day.</h3>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <h3 class="fst-italic fw-lighter">I trust in my ability to handle challenges.</h3>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Carousel controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
 
   <!-- Resources -->
   <section id="resources" class="py-4">
