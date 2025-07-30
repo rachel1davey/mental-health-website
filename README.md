@@ -51,7 +51,7 @@ In my project, I used the Google Font Inter.
 https://fonts.google.com/specimen/Inter
 
 ### Colour Scheme
-Screenshoot of the colour scheme for your project
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/888386be-b0b3-466f-b507-bc47f455e506" />
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
