@@ -53,11 +53,37 @@ https://fonts.google.com/specimen/Inter
 ### Colour Scheme
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/888386be-b0b3-466f-b507-bc47f455e506" />
 
+### AI Influences
+During this project, I decided to utilize AI (specifically copilot)
+
+AI assisted me in:
+- Debugging code
+- Creating user stories
+
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms.....)
+For this project, I wanted to create a safe, calming space to raise awareness about mental health.
+
+My goals for this project were to:
+
+- Create a fully responsive single page website.
+- Maintain a consistent design theme.
+  
+- Educate the user on what mental health is and 'commom' mental health issues.
+- Provide the user with the appropriate mental health resources if they may need it.
+- Ensure the user is equipped with mental health 'coping methods'
+
 ### Navigation
+To ensure responsiveness across all devices and maintain simplicity and ease of use, I decided the best option for navigation was a simple burger navbar that collapses on mobile devices.
 ### Footer
+In order to keep the website simplistic and not too confusing for the user, I decided on a simple 'return to top' button in the footer 
+which redirects the user to the top of the webpage.
 ### Other features
+Common Issues - Cards that open modals with more information on 'common issues'.
+Mental Health Tips - Simple bootstrap accordian sharing mental health tips.
+Daily Affirmations - Bootstrap carousel of affirmations (swipable on touch screen devices).
+Helpful Resources - Simple bootstrap buttons that share 'helpful resources'.
+Share Anonymously - Text box that allows the user to 'share their feelings'.
+
 ## Technologies Used
 HTML
 CSS
@@ -82,6 +108,7 @@ paste here you user story | what is visible to the user and what action they sho
 ## Bugs
 List of bugs and how did you fix them
 
+
 ## Deployment
 For deployment, I used Github's built-in Github Pages.
 Link: https://rachel1davey.github.io/mental-health-website/
@@ -89,8 +116,7 @@ Link: https://rachel1davey.github.io/mental-health-website/
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
   - Code & Text Content
-  
+    Text content within this website were generated with AI
   - Media
-  
-  - Acknowledgment
+  Images within this website were generated with AI
     
