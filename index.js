@@ -17,7 +17,7 @@ releaseThoughtBtn.addEventListener('click', function(event) {
                 let section = document.querySelector(e.target.getAttribute("href"));
                 if (section) {
                     e.preventDefault(); // Prevent default anchor click behavior
-                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    let navbarHeight = document.querySelector(".navbar").offsetHeight;
                     window.scroll({
                         top: section.offsetTop - navbarHeight, // Adjust for navbar height
                         behavior: "smooth",
