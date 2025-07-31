@@ -90,10 +90,9 @@ Mental Health Tips
 Simple bootstrap accordian sharing mental health tips.
 
 Daily Affirmations 
-
 Bootstrap carousel of affirmations (swipable on touch screen devices).
-Helpful Resources 
 
+Helpful Resources 
 Simple bootstrap buttons that share 'helpful resources'.
 
 Share Anonymously
