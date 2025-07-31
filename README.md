@@ -1,4 +1,4 @@
-# Mental Health Website 💖
+# Mental Health Awareness Website 
 ## Table Of Contents:
 1. [Design & Planning](#design-&-planning)
     * [User Stories](#user-stories)
@@ -10,7 +10,6 @@
 2. [Features](#features)
     * [Navigation](#Navigation)
     * [Footer](#Footer)
-    * [Home page](#Home-page)
     * [Other features](#Other-features)
 
 3. [Technologies Used](#technologies-used)
@@ -44,7 +43,12 @@
 - **As a user with a disability**, I want the site to be readable and navigable with screen readers.
 
 ### Wireframes
-Attach wireframes in this section
+Basic Wireframe Design:
+
+<img width="531" height="647" alt="Screenshot 2025-07-31 at 11 07 06" src="https://github.com/user-attachments/assets/fa602a4b-f841-417f-9a63-e41b0a5b9e25" />
+
+<img width="439" height="648" alt="Screenshot 2025-07-31 at 11 07 13" src="https://github.com/user-attachments/assets/08d99259-ae2a-4699-8e2d-b7bef5854310" />
+
 
 ### Typography
 In my project, I used the Google Font Inter.
@@ -78,11 +82,22 @@ To ensure responsiveness across all devices and maintain simplicity and ease of 
 In order to keep the website simplistic and not too confusing for the user, I decided on a simple 'return to top' button in the footer 
 which redirects the user to the top of the webpage.
 ### Other features
-Common Issues - Cards that open modals with more information on 'common issues'.
-Mental Health Tips - Simple bootstrap accordian sharing mental health tips.
-Daily Affirmations - Bootstrap carousel of affirmations (swipable on touch screen devices).
-Helpful Resources - Simple bootstrap buttons that share 'helpful resources'.
-Share Anonymously - Text box that allows the user to 'share their feelings'.
+
+Common Issues 
+Cards that open modals with more information on 'common issues'.
+
+Mental Health Tips 
+Simple bootstrap accordian sharing mental health tips.
+
+Daily Affirmations 
+
+Bootstrap carousel of affirmations (swipable on touch screen devices).
+Helpful Resources 
+
+Simple bootstrap buttons that share 'helpful resources'.
+
+Share Anonymously
+Text box that allows the user to 'share their feelings'.
 
 ## Technologies Used
 HTML
