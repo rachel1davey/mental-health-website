@@ -128,7 +128,7 @@ Deployed using GitHub Pages
 
 ## 📣 Credits  
 
-### 👩‍💻 Code & Text  
+### 👩‍💻 Text  
 Text content generated with AI
 
 ### 🖼 Media  
