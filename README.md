@@ -117,7 +117,8 @@ Desktop:
 <img width="594" height="377" alt="Screenshot 2025-07-31 at 11 13 00" src="https://github.com/user-attachments/assets/80ec616f-46d9-4352-b3d0-f60997047b46" />
 
 ### Browser Compatibility
-Check compatability with different browsers
+<img width="1247" height="443" alt="Screenshot 2025-07-31 at 11 23 29" src="https://github.com/user-attachments/assets/5573a2b0-b954-4d2c-8952-9c5a7439293b" />
+
 ### Responsiveness
 <img width="467" height="687" alt="Screenshot 2025-07-31 at 11 15 12" src="https://github.com/user-attachments/assets/b24ff52f-1a02-4e1a-a06d-255eeefe526b" />
 <img width="591" height="716" alt="Screenshot 2025-07-31 at 11 15 07" src="https://github.com/user-attachments/assets/98c04793-f288-46b4-8faf-eab65e7173e6" />
