@@ -123,7 +123,8 @@ Check compatability with different browsers
 <img width="364" height="705" alt="Screenshot 2025-07-31 at 11 15 44" src="https://github.com/user-attachments/assets/76006399-4bb6-4e3e-b559-faf1787d7d06" />
 
 ### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+<img width="1240" height="95" alt="Screenshot 2025-07-31 at 11 21 24" src="https://github.com/user-attachments/assets/fc536a2f-e548-4bc2-85cb-b385ce994b92" />
+<img width="1462" height="360" alt="Screenshot 2025-07-31 at 11 21 37" src="https://github.com/user-attachments/assets/16175d6a-a026-4cc0-9fad-9c2d75cd4684" />
 
 
 ## Bugs
