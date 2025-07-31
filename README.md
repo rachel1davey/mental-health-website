@@ -107,12 +107,15 @@ Bootstrap
 Github
 ## Testing
 ### Google's Lighthouse Performance
+
 Mobile:
 <img width="586" height="508" alt="Screenshot 2025-07-31 at 11 12 33" src="https://github.com/user-attachments/assets/0e3ff171-9af8-481f-aa1b-55b80330f987" />
 <img width="586" height="357" alt="Screenshot 2025-07-31 at 11 12 39" src="https://github.com/user-attachments/assets/aad072fe-57c6-4b9b-94b8-8cb56cf091db" />
+
 Desktop:
 <img width="592" height="478" alt="Screenshot 2025-07-31 at 11 12 55" src="https://github.com/user-attachments/assets/15811d18-cb21-414d-8337-98a847a91be8" />
 <img width="594" height="377" alt="Screenshot 2025-07-31 at 11 13 00" src="https://github.com/user-attachments/assets/80ec616f-46d9-4352-b3d0-f60997047b46" />
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
@@ -125,10 +128,6 @@ Check compatability with different browsers
 ### Code Validation
 <img width="1240" height="95" alt="Screenshot 2025-07-31 at 11 21 24" src="https://github.com/user-attachments/assets/fc536a2f-e548-4bc2-85cb-b385ce994b92" />
 <img width="1462" height="360" alt="Screenshot 2025-07-31 at 11 21 37" src="https://github.com/user-attachments/assets/16175d6a-a026-4cc0-9fad-9c2d75cd4684" />
-
-
-## Bugs
-List of bugs and how did you fix them
 
 
 ## Deployment
