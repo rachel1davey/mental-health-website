@@ -42,6 +42,8 @@
 - **As a mobile user**, I want everything to work well on my phone, so I can access support wherever I am.
 - **As a user with a disability**, I want the site to be readable and navigable with screen readers.
 
+All user stories have passed :)
+
 ### Wireframes
 Basic Wireframe Design:
 
@@ -114,15 +116,15 @@ Desktop:
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+<img width="467" height="687" alt="Screenshot 2025-07-31 at 11 15 12" src="https://github.com/user-attachments/assets/b24ff52f-1a02-4e1a-a06d-255eeefe526b" />
+<img width="591" height="716" alt="Screenshot 2025-07-31 at 11 15 07" src="https://github.com/user-attachments/assets/98c04793-f288-46b4-8faf-eab65e7173e6" />
+<img width="517" height="707" alt="Screenshot 2025-07-31 at 11 15 23" src="https://github.com/user-attachments/assets/0a158315-07d5-4fa4-8b03-b9917036bba4" />
+<img width="344" height="710" alt="Screenshot 2025-07-31 at 11 15 39" src="https://github.com/user-attachments/assets/2850a96a-68d0-482b-b758-ff59d869e23f" />
+<img width="364" height="705" alt="Screenshot 2025-07-31 at 11 15 44" src="https://github.com/user-attachments/assets/76006399-4bb6-4e3e-b559-faf1787d7d06" />
+
 ### Code Validation
 Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
-### Manual Testing user stories or/and features
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
+
 
 ## Bugs
 List of bugs and how did you fix them
