@@ -14,9 +14,8 @@
 
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
-5. [Bugs](#bugs)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
 
 ## Design & Planning:
 
