@@ -1,143 +1,135 @@
-# Mental Health Awareness Website 
-## Table Of Contents:
-1. [Design & Planning](#design-&-planning)
-    * [User Stories](#user-stories)
-    * [Wireframes](#wireframes)
-    * [Typography](#typography)
-    * [Colour Scheme](#colour-scheme)
+# 🧠 Mental Health Awareness Website  
 
-    
-2. [Features](#features)
-    * [Navigation](#Navigation)
-    * [Footer](#Footer)
-    * [Other features](#Other-features)
+## 📋 Table Of Contents:
+1. [🎨 Design & Planning](#design--planning)  
+   • [🧍‍♀️ User Stories](#user-stories)  
+   • [🗂 Wireframes](#wireframes)  
+   • [🔤 Typography](#typography)  
+   • [🎨 Colour Scheme](#colour-scheme)  
+2. [⚙️ Features](#features)  
+   • [🧭 Navigation](#navigation)  
+   • [🔚 Footer](#footer)  
+   • [💡 Other Features](#other-features)  
+3. [💻 Technologies Used](#technologies-used)  
+4. [🧪 Testing](#testing)  
+5. [🚀 Deployment](#deployment)  
+6. [📣 Credits](#credits)  
 
-3. [Technologies Used](#technologies-used)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
+---
 
-## Design & Planning:
+## 🎨 Design & Planning  
 
-### User Stories
+### 🧍‍♀️ User Stories  
+_All user stories have passed ✅_
 
-- **As a first-time visitor**, I want a gentle introduction to mental health, so I can understand it without feeling overwhelmed.
-- **As someone curious about mental health**, I want to explore common issues explained in clear, everyday language, so I feel more informed and less confused.
-- **As a caregiver or friend**, I want to understand signs of mental health challenges, so I can better support someone I care about.
+- 👋 **As a first-time visitor**, I want a gentle introduction to mental health, so I can understand it without feeling overwhelmed.  
+- 🧐 **As someone curious about mental health**, I want to explore common issues explained in clear, everyday language, so I feel more informed and less confused.  
+- 🤝 **As a caregiver or friend**, I want to understand signs of mental health challenges, so I can better support someone I care about.  
+- 😫 **As someone feeling stressed**, I want to see practical tips for coping, so I can get help quickly without needing to search far.  
+- 🏃‍♀️ **As a busy student or professional**, I want short and actionable advice, so I can use it even on hectic days.  
+- 💌 **As a user carrying emotional weight**, I want to submit an anonymous message to get something off my chest, so I can feel relief without fear of judgment.  
+- 🧑‍⚕️ **As a person looking for professional help**, I want easy access to hotlines and support links, so I know where to turn in moments of need.  
+- 🚨 **As a user in crisis**, I want urgent resources to be clearly visible, so I can get help fast and safely.  
+- 💭 **As a person navigating tough emotions**, I want positive affirmations displayed throughout the page, so I feel supported and understood.  
+- 🌸 **As a user who’s emotionally sensitive**, I want soft colors and calming design, so the page doesn’t add to my stress.  
+- 🫶 **As someone seeking reassurance**, I want messages like “You’re doing your best” or “You matter,” so I feel encouraged.  
+- 🌐 **As a beginner to websites**, I want a clear, intuitive layout, so I don’t get lost or frustrated while browsing.  
+- 📱 **As a mobile user**, I want everything to work well on my phone, so I can access support wherever I am.  
+- ♿ **As a user with a disability**, I want the site to be readable and navigable with screen readers.  
 
-- **As someone feeling stressed**, I want to see practical tips for coping, so I can get help quickly without needing to search far.
-- **As a busy student or professional**, I want short and actionable advice, so I can use it even on hectic days.
+### 🗂 Wireframes  
 
-- **As a user carrying emotional weight**, I want to submit an anonymous message to get something off my chest, so I can feel relief without fear of judgment.
+Basic Wireframe Design:  
+![Screenshot 1](https://github.com/user-attachments/assets/fa602a4b-f841-417f-9a63-e41b0a5b9e25)  
+![Screenshot 2](https://github.com/user-attachments/assets/08d99259-ae2a-4699-8e2d-b7bef5854310)
 
-- **As a person looking for professional help**, I want easy access to hotlines and support links, so I know where to turn in moments of need.
-- **As a user in crisis**, I want urgent resources to be clearly visible, so I can get help fast and safely.
+### 🔤 Typography  
+Font used: [Inter](https://fonts.google.com/specimen/Inter)
 
-- **As a person navigating tough emotions**, I want positive affirmations displayed throughout the page, so I feel supported and understood.
-- **As a user who’s emotionally sensitive**, I want soft colors and calming design, so the page doesn’t add to my stress.
-- **As someone seeking reassurance**, I want messages like “You’re doing your best” or “You matter,” so I feel encouraged.
+### 🎨 Colour Scheme  
+![Colour Palette](https://github.com/user-attachments/assets/888386be-b0b3-466f-b507-bc47f455e506)
 
-- **As a beginner to websites**, I want a clear, intuitive layout, so I don’t get lost or frustrated while browsing.
-- **As a mobile user**, I want everything to work well on my phone, so I can access support wherever I am.
-- **As a user with a disability**, I want the site to be readable and navigable with screen readers.
+### 🤖 AI Influences  
+AI (Copilot) assisted in:
+- 🪛 Debugging code  
+- 🧠 Creating user stories  
 
-All user stories have passed :)
+---
 
-### Wireframes
-Basic Wireframe Design:
+## ⚙️ Features  
 
-<img width="531" height="647" alt="Screenshot 2025-07-31 at 11 07 06" src="https://github.com/user-attachments/assets/fa602a4b-f841-417f-9a63-e41b0a5b9e25" />
+Creating a safe, calming space 🧘‍♀️ to raise awareness about mental health:
 
-<img width="439" height="648" alt="Screenshot 2025-07-31 at 11 07 13" src="https://github.com/user-attachments/assets/08d99259-ae2a-4699-8e2d-b7bef5854310" />
+- ✅ Fully responsive single page website  
+- 🎯 Consistent design theme  
+- 📚 Educate the user on mental health and common issues  
+- 🆘 Provide helpful mental health resources  
+- 🛠 Coping methods and practical advice  
 
+### 🧭 Navigation  
+A simple burger navbar 🍔 that collapses on mobile devices.
 
-### Typography
-In my project, I used the Google Font Inter.
-https://fonts.google.com/specimen/Inter
+### 🔚 Footer  
+A “Return to Top” ⬆️ button that redirects the user to the top of the webpage.
 
-### Colour Scheme
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/888386be-b0b3-466f-b507-bc47f455e506" />
+### 💡 Other Features  
 
-### AI Influences
-During this project, I decided to utilize AI (specifically copilot)
+- 🧠 **Common Issues:** Cards open modals with more information  
+- 📝 **Mental Health Tips:** Bootstrap accordion sharing tips  
+- 💖 **Daily Affirmations:** Bootstrap carousel, swipeable  
+- 📎 **Helpful Resources:** Buttons linking to helpful sites  
+- 🗣️ **Share Anonymously:** Text box to share feelings  
 
-AI assisted me in:
-- Debugging code
-- Creating user stories
+---
 
-## Features:
-For this project, I wanted to create a safe, calming space to raise awareness about mental health.
+## 💻 Technologies Used  
 
-My goals for this project were to:
+- 🖋 HTML  
+- 🎨 CSS  
+- 🧱 Bootstrap  
+- 🗃 GitHub  
 
-- Create a fully responsive single page website.
-- Maintain a consistent design theme.
-  
-- Educate the user on what mental health is and 'commom' mental health issues.
-- Provide the user with the appropriate mental health resources if they may need it.
-- Ensure the user is equipped with mental health 'coping methods'
+---
 
-### Navigation
-To ensure responsiveness across all devices and maintain simplicity and ease of use, I decided the best option for navigation was a simple burger navbar that collapses on mobile devices.
-### Footer
-In order to keep the website simplistic and not too confusing for the user, I decided on a simple 'return to top' button in the footer 
-which redirects the user to the top of the webpage.
-### Other features
+## 🧪 Testing  
 
-Common Issues 
-Cards that open modals with more information on 'common issues'.
+### 🚦 Google’s Lighthouse Performance  
 
-Mental Health Tips 
-Simple bootstrap accordian sharing mental health tips.
+**📱 Mobile:**  
+![Mobile Test 1](https://github.com/user-attachments/assets/0e3ff171-9af8-481f-aa1b-55b80330f987)  
+![Mobile Test 2](https://github.com/user-attachments/assets/aad072fe-57c6-4b9b-94b8-8cb56cf091db)
 
-Daily Affirmations 
-Bootstrap carousel of affirmations (swipable on touch screen devices).
+**🖥 Desktop:**  
+![Desktop Test 1](https://github.com/user-attachments/assets/15811d18-cb21-414d-8337-98a847a91be8)  
+![Desktop Test 2](https://github.com/user-attachments/assets/80ec616f-46d9-4352-b3d0-f60997047b46)
 
-Helpful Resources 
-Simple bootstrap buttons that share 'helpful resources'.
+### 🌍 Browser Compatibility  
+![Browser Compatibility](https://github.com/user-attachments/assets/5573a2b0-b954-4d2c-8952-9c5a7439293b)
 
-Share Anonymously
-Text box that allows the user to 'share their feelings'.
+### 📱 Responsiveness  
+![Responsive Test 1](https://github.com/user-attachments/assets/b24ff52f-1a02-4e1a-a06d-255eeefe526b)  
+![Responsive Test 2](https://github.com/user-attachments/assets/98c04793-f288-46b4-8faf-eab65e7173e6)  
+![Responsive Test 3](https://github.com/user-attachments/assets/0a158315-07d5-4fa4-8b03-b9917036bba4)  
+![Responsive Test 4](https://github.com/user-attachments/assets/2850a96a-68d0-482b-b758-ff59d869e23f)  
+![Responsive Test 5](https://github.com/user-attachments/assets/76006399-4bb6-4e3e-b559-faf1787d7d06)
 
-## Technologies Used
-HTML
-CSS
-Bootstrap
-Github
-## Testing
-### Google's Lighthouse Performance
+### ✅ Code Validation  
+![Code Validation 1](https://github.com/user-attachments/assets/fc536a2f-e548-4bc2-85cb-b385ce994b92)  
+![Code Validation 2](https://github.com/user-attachments/assets/16175d6a-a026-4cc0-9fad-9c2d75cd4684)
 
-Mobile:
-<img width="586" height="508" alt="Screenshot 2025-07-31 at 11 12 33" src="https://github.com/user-attachments/assets/0e3ff171-9af8-481f-aa1b-55b80330f987" />
-<img width="586" height="357" alt="Screenshot 2025-07-31 at 11 12 39" src="https://github.com/user-attachments/assets/aad072fe-57c6-4b9b-94b8-8cb56cf091db" />
+---
 
-Desktop:
-<img width="592" height="478" alt="Screenshot 2025-07-31 at 11 12 55" src="https://github.com/user-attachments/assets/15811d18-cb21-414d-8337-98a847a91be8" />
-<img width="594" height="377" alt="Screenshot 2025-07-31 at 11 13 00" src="https://github.com/user-attachments/assets/80ec616f-46d9-4352-b3d0-f60997047b46" />
+## 🚀 Deployment  
 
-### Browser Compatibility
-<img width="1247" height="443" alt="Screenshot 2025-07-31 at 11 23 29" src="https://github.com/user-attachments/assets/5573a2b0-b954-4d2c-8952-9c5a7439293b" />
+Deployed using GitHub Pages  
+🔗 [Live Website](https://rachel1davey.github.io/mental-health-website/)
 
-### Responsiveness
-<img width="467" height="687" alt="Screenshot 2025-07-31 at 11 15 12" src="https://github.com/user-attachments/assets/b24ff52f-1a02-4e1a-a06d-255eeefe526b" />
-<img width="591" height="716" alt="Screenshot 2025-07-31 at 11 15 07" src="https://github.com/user-attachments/assets/98c04793-f288-46b4-8faf-eab65e7173e6" />
-<img width="517" height="707" alt="Screenshot 2025-07-31 at 11 15 23" src="https://github.com/user-attachments/assets/0a158315-07d5-4fa4-8b03-b9917036bba4" />
-<img width="344" height="710" alt="Screenshot 2025-07-31 at 11 15 39" src="https://github.com/user-attachments/assets/2850a96a-68d0-482b-b758-ff59d869e23f" />
-<img width="364" height="705" alt="Screenshot 2025-07-31 at 11 15 44" src="https://github.com/user-attachments/assets/76006399-4bb6-4e3e-b559-faf1787d7d06" />
+---
 
-### Code Validation
-<img width="1240" height="95" alt="Screenshot 2025-07-31 at 11 21 24" src="https://github.com/user-attachments/assets/fc536a2f-e548-4bc2-85cb-b385ce994b92" />
-<img width="1462" height="360" alt="Screenshot 2025-07-31 at 11 21 37" src="https://github.com/user-attachments/assets/16175d6a-a026-4cc0-9fad-9c2d75cd4684" />
+## 📣 Credits  
 
+### 👩‍💻 Code & Text  
+Text content generated with AI
 
-## Deployment
-For deployment, I used Github's built-in Github Pages.
-Link: https://rachel1davey.github.io/mental-health-website/
-
-## Credits
-List of used resources for your website (text, images, snippets of code, projects....)
-  - Code & Text Content
-    Text content within this website were generated with AI
-  - Media
-  Images within this website were generated with AI
-    
+### 🖼 Media  
+Images generated with AI
